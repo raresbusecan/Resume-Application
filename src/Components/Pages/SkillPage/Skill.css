@@ -1,0 +1,104 @@
+.skill-container{
+    height: 550px;
+     display: flex;
+     flex-direction: row;
+ } 
+
+ .skill{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.html-skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.css-skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.js-skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#s-image{
+    width: 15%;
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.bar{     
+    border: solid 2px rgb(128, 128, 128);
+    width: 50%;
+}
+
+.progress-bar{
+    color: #000000 !important;
+    font-size: larger;
+    font-weight: 600; 
+}
+
+.thumb{
+    height: 50px;
+ }
+
+.carousel{
+    top: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-content{
+    padding-top: 20px;
+    width: 90%;
+}
+
+@media (max-width: 414px){
+    .skill-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .skill-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill{
+        width: 100%;
+    }
+}
