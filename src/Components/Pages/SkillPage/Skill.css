@@ -54,7 +54,7 @@
   }
 
 .bar{     
-    border: solid 2px rgb(128, 128, 128);
+    border: solid 2px #808080;
     width: 50%;
 }
 

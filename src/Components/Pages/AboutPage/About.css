@@ -13,7 +13,7 @@
 
 .content{
     width: 100%;
-    color: aliceblue;
+    color: #ffffff;
 }
 
 .second-container{
@@ -26,7 +26,7 @@
 
 #content2{
     width: 90%;
-    color: aliceblue;
+    color: #ffffff;
 }
 
 @media(max-width: 414px){
