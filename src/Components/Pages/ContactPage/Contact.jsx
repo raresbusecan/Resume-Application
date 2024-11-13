@@ -37,7 +37,7 @@ function ContactPage() {
                         <div>
                             <i className="bi bi-envelope-fill" ></i>
                             <h2 id='epl-title'>Email:</h2>
-                            <p id='epl-info'>raresbusecan1999@gmail.com</p>
+                            <p id='epl-info'>raresbusecan.rbv@gmail.com</p>
                         </div>
                         <div>
                             <i className="bi bi-telephone-fill"></i>
