@@ -2,7 +2,7 @@ import './Hero.css';
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import futuristIMG from '../image/futuristic.png';
-import Resume from '../image/Busecan Rares  Resume.pdf'
+import Resume from '../image/BetterResume.pdf'
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 function HeroPage() {
@@ -11,7 +11,7 @@ function HeroPage() {
             <div className='hero' >
                 <div className='hero-section'>
                     <div >
-                        <a href={Resume} download="Busecan Rares  Resume.pdf" >
+                        <a href={Resume} download="BetterResume.pdf" >
                             <button className="resumeButton" data-aos="fade-up">Resume</button>
                         </a>
                     </div>
@@ -33,7 +33,7 @@ function HeroPage() {
                             <a href='https://www.facebook.com/rares.busecan' target="_blank" className="bi bi-facebook"></a>
                             <a href='https://www.instagram.com/raresbusecan/' target="_blank" className="bi bi-instagram"></a>
                             <a href='https://www.linkedin.com/in/rares-busecan/' target="_blank" className="bi bi-linkedin"></a>
-                            <a href='https://github.com/dino4030' target="_blank" className="bi bi-github"></a>
+                            <a href='https://github.com/raresbusecan' target="_blank" className="bi bi-github"></a>
                         </div>
                     </div>
                 </div>
